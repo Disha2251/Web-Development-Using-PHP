@@ -1,13 +1,24 @@
 <?php
 $x=10;
 $y=20;
-$t;
-echo "Before swap \n";
-echo "x=$x and y=$y \n";
+$temp=0;
 
+echo "Before swap ";
+echo "<br>";
+echo "x=$x and y=$y ";
+echo "<br>";
+$temp=$x;
 $x=$y;
-$y=$x;
+$y=$temp;
 
+
+echo "After swap ";
+echo "<br>";
 echo "x=$x and y=$y \n";
 
+/*output:
+Before swap
+x=10 and y=20
+After swap
+x=20 and y=10*/
 ?>

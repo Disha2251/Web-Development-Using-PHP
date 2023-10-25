@@ -1,6 +1,8 @@
 <?php
-$array1 = array("red","blue","black");
-$array2 = array("pink","red","blue");
-$result = array_unique($array1, $array2);
-print_r($result);
+$a=array("red","green","red","yellow");
+print_r(array_unique($a));
+
+/*output:
+Array ( [0] => red [1] => green [3] => yellow )*/
+
 ?>
